@@ -13,7 +13,7 @@ font-family: 'Mochiy Pop P One', sans-serif; */
     height:fit-content;
 }
 
-h1 {
+h1, h3 {
     margin: 0 auto;
 }
 
@@ -35,6 +35,8 @@ h1 {
     padding: 1vw;
     box-sizing: border-box;
     text-align: justify;
+    vertical-align: top;
+    height: fit-content;
 
 }
 
@@ -44,4 +46,10 @@ h1 {
 
 p {
     margin: 1vw;
+}
+
+input{
+    display: block;
+    font-size: 1.5vw;
+    width: 100%;
 }
