@@ -1,0 +1,47 @@
+/* FONTS */
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Mochiy Pop P One', sans-serif; */
+
+#Head {
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    border-radius: 5vw;
+    background-color: rgb(255, 237, 210);
+    height:fit-content;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+.fir{
+    font-family: 'Anton', sans-serif;
+}
+.sec{
+    font-family: 'Bebas Neue';
+}.thir{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.article {
+    display: inline-flex;
+    background-color: royalblue;
+    border-radius: 5px;
+    width: 48%;
+    margin: 1vw auto ;
+    padding: 1vw;
+    box-sizing: border-box;
+    text-align: justify;
+
+}
+
+.content{
+    text-align: center;
+}
+
+p {
+    margin: 1vw;
+}
