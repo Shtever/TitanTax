@@ -107,8 +107,8 @@
                 Telphone: <input type="tel" name="" id="">
                 Date: <input type="date" name="" id="">
                 File: <input type="file" name="" id="">
-                Range: <input type="range" name="" id="">
-                Favorite Color: <input type="color" name="" id="favColor">
+                Range: <input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value" style="width: 50%; display: inline;"> <output style="width: 48%; display: inline;">50</output>
+                <br>Favorite Color: <input type="color" style="width: 50%; display: inline-flex;" id="favColor">
                 <input type="submit" value="Submit">
 
             </form>
